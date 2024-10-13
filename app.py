@@ -5,7 +5,7 @@ import requests
 import json
 import gradio as gr
 
-url="https://localhost:11434/api/generate"
+url="http://localhost:11434/api/generate"
 headers={
     'Content-Type':'application/json'
 }
@@ -36,4 +36,4 @@ interface=gr.Interface(
     outputs="text"
 )
 
-interface.launch()
+interface.launch(share=True)
