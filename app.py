@@ -6,7 +6,7 @@ import json
 import streamlit as st
 
 # API configuration
-url = "http://localhost:11434/api/generate"
+url = "https://localhost:11434/api/generate"
 headers = {
     'Content-Type': 'application/json'
 }
